@@ -1,0 +1,34 @@
+.footer {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    bottom: 0px;
+    animation: slideUp 2s;
+}
+
+.bottom-logo {
+    height: 50px;
+    width: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+    top: 0px;
+    transition-duration: 300ms;
+}
+
+.bottom-logo:hover {
+    top: 5px;
+    transition-duration: 300ms;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+

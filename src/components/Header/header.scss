@@ -1,0 +1,48 @@
+@import '../../styles/_vars.sass';
+
+.header {
+    background-image: url('./Bandeau-Empty-Extend-Final.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: -10%;
+    transition-duration: 300ms;
+    display: flex;
+    justify-content: space-around;
+    animation: slideDown 2s;
+}
+
+.header:hover {
+    height: 200px;
+    top: 0px;
+    transition-duration: 300ms;
+}
+
+
+.navigation {
+    font-family: $font-family;
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.navigation.active {
+    font-family: $font-family;
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-decoration: underline white;
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
