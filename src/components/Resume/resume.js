@@ -17,7 +17,10 @@ import SQL from './sql.png';
 class Resume extends Component {
     constructor(props)  {
         super(props)
-        this.toggleContent = this.toggleContent.bind(this)
+        this.toggleTraining = this.toggleTraining.bind(this)
+        this.toggleSkills = this.toggleSkills.bind(this)
+        this.toggleWork = this.toggleWork.bind(this)
+        this.toggleInterests = this.toggleInterests.bind(this)
         this.state = {
             showTraining: false,
             showSkills: false,
@@ -26,12 +29,30 @@ class Resume extends Component {
         }
     }
 
-    toggleContent(event) {
+    toggleTraining(event) {
         event.preventDefault()
         this.setState({
             showTraining: !this.state.showTraining,
+        })
+    }
+
+    toggleSkills(event) {
+        event.preventDefault()
+        this.setState({
             showSkills: !this.state.showSkills,
+        })
+    }
+
+    toggleWork(event) {
+        event.preventDefault()
+        this.setState({
             showWork: !this.state.showWork,
+        })
+    }
+
+    toggleInterests(event) {
+        event.preventDefault()
+        this.setState({
             showInterests: !this.state.showInterests,
         })
     }
@@ -46,19 +67,19 @@ class Resume extends Component {
 
                 <div className="container-resume">
                     <div className="part-resume">
-                        <img className="top-icon" src={Brain} onClick={this.toggleContent} ></img>
+                        <img className="top-icon" src={Brain} onClick={this.toggleTraining} ></img>
                         <p className="top-text">Training</p>
                     </div>
                     <div className="part-resume">
-                        <img className="top-icon" src={Tools} onClick={this.toggleContent}></img>
+                        <img className="top-icon" src={Tools} onClick={this.toggleSkills}></img>
                         <p className="top-text">Skills</p>
                     </div>
                     <div className="part-resume">
-                        <img className="top-icon" src={Suitcase} onClick={this.toggleContent}></img>
+                        <img className="top-icon" src={Suitcase} onClick={this.toggleWork}></img>
                         <p className="top-text">Work Experience</p>
                     </div>
                     <div className="part-resume">
-                        <img className="top-icon" src={Heart} onClick={this.toggleContent}></img>
+                        <img className="top-icon" src={Heart} onClick={this.toggleInterests}></img>
                         <p className="top-text">Interests</p>
                     </div>
                 </div>
