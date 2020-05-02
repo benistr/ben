@@ -4,7 +4,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Router } from 'react-router-dom';
 
 import LandingPage from '../Landing-page/landingpage';
 import AboutMe from '../About-me/aboutme';
@@ -20,22 +20,22 @@ import './app.sass';
 class App extends Component {
     render() {
       let links = [
-        { label: 'About Me', link: '/aboutme', active: ''},
-        { label: 'Resume', link: '/resume', active: ''},
-        { label: 'Portfolio', link: '/portfolio', active: ''},
-        { label: 'Contact', link: '/contact', active: ''},
+        { label: 'About Me', link: '/aboutme'},
+        { label: 'Resume', link: '/resume'},
+        { label: 'Portfolio', link: '/portfolio'},
+        { label: 'Contact', link: '/contact'},
       ]
         return(
             <div id="app">
+            <Route exact path="/" component={LandingPage} />
+            <Header links={links} />
+            <Footer />
                 <Switch>
-                    <Route exact path="/" component={LandingPage} />
-                    <Header links={links} />
                     <Route path="/aboutme" component={AboutMe} />
                     <Route path="/resume" component={Resume} />
                     <Route path="/portfolio" component={Portfolio} />
                     <Route path="/contact" component={Contact} />
                 </Switch>
-                <Footer />
             </div>
     )}
 };

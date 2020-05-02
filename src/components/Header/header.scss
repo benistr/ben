@@ -23,17 +23,28 @@
 
 .navigation {
     font-family: $font-family;
-    color: white;
+    color: #C89933;
     font-size: 3rem;
     text-transform: uppercase;
+    position: relative;
+    top: 10px;
+    transition-duration: 300ms;
+}
+
+.navigation:hover {
+    position: relative;
+    top: 15px;
+    transition-duration: 300ms;
 }
 
 .navigation.active {
     font-family: $font-family;
-    color: white;
+    color: #C89933;
     font-size: 3rem;
     text-transform: uppercase;
-    text-decoration: underline white;
+    text-decoration: underline #C89933;
+    position: relative;
+    top: 50px;
 }
 
 @keyframes slideDown {

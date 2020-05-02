@@ -1,16 +1,55 @@
-.container {
+@import '../../styles/_vars.sass';
+
+.container-am {
+    display: flex;
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
 }
 
-.left-part {
-    width: 45%;
+.left-part-am {
+    width: 47%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.right-part {
-    width: 45%;
+.right-part-am {
+    width: 47%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.container .leftpart .photo {
-    width: auto;
-    height: 400px;
+.photo {
+    width: 90%;
+    height: auto;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.présentation {
+    font-family: $font-family;
+    color: #C89933;
+    font-size: 2.5rem;
+    text-align: right;
+    text-align: justify;
+}
+
+.here {
+    text-decoration: underline;
+    animation: blink 3s infinite; 
+}
+
+@keyframes blink {
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
 }

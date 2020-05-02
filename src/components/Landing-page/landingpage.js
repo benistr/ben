@@ -13,7 +13,7 @@ class LandingPage extends Component {
                             <img src={Logo1}></img>
                         </div>
                         <div className="flip-card-back">
-                            <Link to="/About-me"><img src={Logo2}></img></Link>
+                            <Link to="/aboutme"><img src={Logo2}></img></Link>
                         </div>
                     </div>
                 </div>
