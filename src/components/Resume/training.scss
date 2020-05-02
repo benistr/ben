@@ -1,0 +1,64 @@
+@import '../../styles/_vars.sass';
+
+body {
+    overflow-y: hidden;
+}
+
+.container-training {
+    width: 85%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    color: #C89933;
+    font-family: $font-family;
+    font-size: 2.5rem;
+    overflow-y: auto;
+
+}
+
+.container-training::-webkit-scrollbar {
+    width: 0.2em;
+}
+
+.container-training::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.container-training::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #C89933;
+}
+
+.container-training-xp {
+    display: flex;
+    width: 100%;
+    border-bottom: 3px solid #C89933;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.container-training-year {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container-training-description {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.here {
+    text-decoration: underline;
+    animation: blink 3s infinite; 
+}
+
+@keyframes blink {
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}

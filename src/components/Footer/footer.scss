@@ -12,12 +12,12 @@
     padding-left: 1%;
     padding-right: 1%;
     position: relative;
-    top: 0px;
+    bottom: -55px;
     transition-duration: 300ms;
 }
 
 .bottom-logo:hover {
-    top: 5px;
+    bottom: -25px;
     transition-duration: 300ms;
 }
 

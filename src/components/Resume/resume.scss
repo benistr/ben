@@ -9,34 +9,9 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1%;
 }
 
-.left-part-resume {
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.middle-part1-resume {
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.middle-part2-resume {
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.right-part-resume {
+.part-resume {
     width: 20%;
     margin-left: auto;
     margin-right: auto;
@@ -45,13 +20,14 @@ body {
 }
 
 .top-icon {
-    width: 50%;
+    width: 40%;
 }
 
 .top-icon:hover {
     padding: 8px;
     border: 3px solid #C89933;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px #C89933;
 }
 
 .top-icon.active {
@@ -64,54 +40,6 @@ body {
     color: #C89933;
     font-family: $font-family;
     font-size: 2.5rem;
-}
+    text-transform: uppercase;
 
-.training-container {
-    width: 85%;
-    height: 320px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    color: #C89933;
-    font-family: $font-family;
-    font-size: 2.5rem;
-    overflow-y: auto;
-    margin-bottom: 100px;
-}
-
-.training-container::-webkit-scrollbar{
-    color: #C89933;
-}
-
-.training-container-xp {
-    display: flex;
-    width: 100%;
-    border-bottom: 3px solid #C89933;
-    padding-bottom: 8px;
-    padding-top: 8px;
-}
-
-.training-container-year {
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.training-container-description {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.here {
-    text-decoration: underline;
-    animation: blink 3s infinite; 
-}
-
-@keyframes blink {
-    0%{opacity: 1;}
-    50%{opacity: 0;}
-    100%{opacity: 1;}
 }
