@@ -13,6 +13,12 @@ import NODE from './node.png';
 import PHP from './php.png';
 import REACT from './react.png';
 import SQL from './sql.png';
+import Camera from './camera.png';
+import Gamepad from './gamepad.png';
+import Music from './music.png';
+import Plane from './paper-plane.png';
+import Computer from './computer.png';
+import Lightbulb from './lightbulb.png';
 
 class Resume extends Component {
     constructor(props)  {
@@ -84,7 +90,8 @@ class Resume extends Component {
                     </div>
                 </div>
 
-                {showTraining === true ?
+            <div className="toggle-wrapper">
+                {showTraining != true ?
                     <div className="container-training">
                         <div className="container-training-xp">
                             <div className="container-training-year">
@@ -163,18 +170,37 @@ class Resume extends Component {
                                 <p>ReactJS</p>
                             </div>
                         </div>
-                        <div className="other-skill">
-                        <p>English: C1 level</p>
-                        <p>CRM: Salesforce & Zoho</p>
-                        <p>Scrum & Agile methodology</p>
-                        <p>Trello - Wireframes - Slask - Discord</p>
-                        <p>Suite Office - Suite Adobe (beginner): Pr, Ps, Lr, Id, Ai</p>
+                        <div className="note-skill">
+                            <p>You will not find skills charts here because I think it's a subjective notion. I'm not competent to assess myself&#9786;</p>
+                        </div>
+                        <div className="container-soft-skill">
+                            <div className="software-skill">
+                                <div className="icon-wrapper">
+                                <img className="soft-icon" src={Computer}></img>
+                                <p className="soft-title">Softwares & Tools</p>
+                                </div>
+                                <p>English: C1 level</p>
+                                <p>CRM: Salesforce & Zoho</p>
+                                <p>Scrum & Agile methodology</p>
+                                <p>Trello - Wireframes - Slask - Discord</p>
+                                <p>Suite Office - Suite Adobe (beginner): Pr, Ps, Lr, Id, Ai</p>
+                            </div>
+                            <div className="software-skill">
+                            <div className="icon-wrapper">
+                            <img className="soft-icon" src={Lightbulb}></img>
+                            <p className="soft-title">Soft Skills</p>
+                            </div>
+                            <p>Teamwork</p>
+                            <p>Attention to detail</p>
+                            <p>Creativity</p>
+                            <p>Curiosity</p>
+                            <p>Resilience</p>
+                        </div>
                         </div>
                     </div> : ""}
 
                 {showWork === true ?
-                    <div className="">
-                        <div className="container-training">
+                    <div className="container-training">
                         <div className="container-training-xp">
                             <div className="container-training-year">
                             <p>September 2019 to October 2019</p>
@@ -215,7 +241,7 @@ class Resume extends Component {
                             <p>February 2014 to January 2017</p>
                             </div>
                             <div className="container-training-description">
-                            <p>JUSTEAT - Territory Manager
+                            <p>JUSTEAT - Regional Business Developer
                             <br></br>Telemarketing and commercial prospection. Clients Portfolio development. Territory orders daily monitoring.  Customer satisfaction awareness. Customer network development (customer satisfaction, sponsorship) and additionals marketing sales
                             <br></br>
                             <a className="here" href="https://www.just-eat.fr/" target="_blank">Learn more here</a></p>
@@ -232,9 +258,28 @@ class Resume extends Component {
                             <a className="here" href="https://www.ghdhair.com/fr" target="_blank">Learn more here</a></p>
                             </div>
                         </div>
-                        </div>
                     </div> :""}
 
+                {showInterests === true ?
+                <div className="container-interests">
+                    <div className="part-resume">
+                        <a href="https://www.flickr.com/photos/154515169@N04/albums" target="_blank" alt="lien externe vers flickr"><img className="top-icon" src={Camera}></img></a>
+                        <p className="top-text">Urban and Landscape hotography</p>
+                    </div>
+                    <div className="part-resume">
+                        <img className="top-icon" src={Gamepad}></img>
+                        <p className="top-text">Role playing and video games</p>
+                    </div>
+                    <div className="part-resume">
+                        <a href="https://soundcloud.com/black-cherry-15/sets/ep-1" target="_blank" alt="lien externe vers soundcloud"><img className="top-icon" src={Music}></img></a>
+                        <p className="top-text">Music, Guitar, concert</p>
+                    </div>
+                    <div className="part-resume">
+                        <img className="top-icon" src={Plane}></img>
+                        <p className="top-text">Aviation and everything that flies near or far</p>
+                    </div>
+                </div> : ""}
+            </div>
             </div>
 
         )
