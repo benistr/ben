@@ -33,7 +33,6 @@ body {
 .container-training-xp {
     display: flex;
     width: 100%;
-    border-bottom: 3px solid #C89933;
     padding-bottom: 8px;
     padding-top: 8px;
 }
@@ -45,6 +44,7 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .container-training-description {
@@ -54,9 +54,17 @@ body {
     text-align: justify;
 }
 
+.separation {
+    border-bottom: 3px solid #C89933;
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 .here {
     text-decoration: underline;
-    animation: blink 3s infinite; 
+    animation: blink 2s infinite; 
 }
 
 @keyframes blink {

@@ -91,7 +91,7 @@ class Resume extends Component {
                 </div>
 
             <div className="toggle-wrapper">
-                {showTraining != true ?
+                {showTraining === true ?
                     <div className="container-training">
                         <div className="container-training-xp">
                             <div className="container-training-year">
@@ -102,35 +102,39 @@ class Resume extends Component {
                             <br></br>Official State Diploma - <a className="here" href="https://certificationprofessionnelle.fr/recherche/rncp/31114" target="_blank">Learn more here</a></p>
                             </div>
                         </div>
+                        <div className="separation"></div>
                         <div className="container-training-xp">
                             <div className="container-training-year">
                             <p>December 2020</p>
                             </div>
                             <div className="container-training-description">
-                            <p>OPQUAST Certification - Quality control in web projects
-                            <br></br>790/1000 - <a className="here" href="https://www.opquast.com/" target="_blank">Learn more here</a></p>
+                            <p><a className="here" href="https://www.opquast.com/" target="_blank">OPQUAST</a> Certification - Quality control in web projects
+                            <br></br>Good practices certification - Score: 790/1000</p>
                             </div>
                         </div>
+                        <div className="separation"></div>
                         <div className="container-training-xp">
                             <div className="container-training-year">
                             <p>May 2019 to October 2019</p>
                             </div>
                             <div className="container-training-description">
-                            <p>O'Clock Training - Web & web mobile developer
-                            <br></br>"Grande Ecole du Numerique" approuved - <a className="here" href="https://oclock.io/" target="_blank">Learn more here</a></p>
+                            <p><a className="here" href="https://oclock.io/" target="_blank">O'Clock</a> Training - Web & web mobile developer
+                            <br></br>"Grande Ecole du Numerique" approuved</p>
+                            </div>
                         </div>
-                        </div>
+                        <div className="separation"></div>
                         <div className="container-training-xp">
                             <div className="container-training-year">
-                            <p>2012 to 2013</p>
+                            <p>September 2012 to November 2013</p>
                             </div>
                             <div className="container-training-description">
                             <p>Business Development Manager Bachelor at Pole Formation CCI - Strasbourg</p>
                             </div>
                         </div>
+                        <div className="separation"></div>
                         <div className="container-training-xp">
                             <div className="container-training-year">
-                            <p>2012 to 2013</p>
+                            <p>September 2009 to June 2011</p>
                             </div>
                             <div className="container-training-description">
                             <p>Assistant Manager BTS (Advanced Technician Certificate) at Lycee Jeanne d'Arc - Mulhouse</p>
@@ -206,56 +210,55 @@ class Resume extends Component {
                             <p>September 2019 to October 2019</p>
                             </div>
                             <div className="container-training-description">
-                            <p>O'COURSES - Graduation team project
-                            <br></br>From scratch : Shopping list management application
+                            <p><a className="here" href="https://github.com/benistr/Projet-Ocourses" target="_blank">O'COURSES</a> - Graduation team project
+                            <br></br>From scratch: Shopping list management application
                             Drafting of specifications and draft of the first models
                             MERN Stack used with MongoDB Atlas in BDD and Node.JS
-                            <br></br>
-                            <a className="here" href="https://github.com/benistr/Projet-Ocourses" target="_blank">Learn more here</a></p>
+                            </p>
                             </div>
                         </div>
+                        <div className="separation"></div>
                         <div className="container-training-xp">
                             <div className="container-training-year">
                             <p>August 2018 to December 2018</p>
                             </div>
                             <div className="container-training-description">
-                            <p>ELDOTRAVO - Partnership Manager
-                            <br></br>Clients Portfolio development with the implementation of partnerships to manage customers reviews and online reputation of construction industry. Demonstration of services and implementation of free trials. Participation in fairs, BNI and partner conferences for networking
-                            <br></br>
-                            <a className="here" href="https://www.eldotravo.fr/" target="_blank">Learn more here</a></p>
+                            <p><a className="here" href="https://www.eldotravo.fr/" target="_blank">ELDOTRAVO</a> - Partnership Manager
+                            <br></br>Clients Portfolio development with the implementation of partnerships to manage customers reviews and online reputation of construction industry. Demonstration of services and implementation of free trials. Participation in fairs, BNI 
+                            </p>
                             </div>
                         </div>
+                        <div className="separation"></div>
                         <div className="container-training-xp">
                             <div className="container-training-year">
                             <p>January 2017 to July 2018</p>
                             </div>
                             <div className="container-training-description">
-                            <p>L'ADDITION - Regional Business Developer
+                            <p><a className="here" href="https://www.laddition.com/fr" target="_blank">L'ADDITION</a> - Regional Business Developer
                             <br></br>Telemarketing and commercial prospection. Clients Portfolio development. Installation and new customers training.  Remote demonstration. Customer network development (customer satisfaction, sponsorship) and partners (accounting firms, consultants, web solutions)
-                            <br></br>
-                            <a className="here" href="https://www.laddition.com/fr" target="_blank">Learn more here</a></p>
+                            </p>
+                            </div>
                         </div>
-                        </div>
+                        <div className="separation"></div>
                         <div className="container-training-xp">
                             <div className="container-training-year">
                             <p>February 2014 to January 2017</p>
                             </div>
                             <div className="container-training-description">
-                            <p>JUSTEAT - Regional Business Developer
+                            <p><a className="here" href="https://www.just-eat.fr/" target="_blank">JUSTEAT</a> - Regional Business Developer
                             <br></br>Telemarketing and commercial prospection. Clients Portfolio development. Territory orders daily monitoring.  Customer satisfaction awareness. Customer network development (customer satisfaction, sponsorship) and additionals marketing sales
-                            <br></br>
-                            <a className="here" href="https://www.just-eat.fr/" target="_blank">Learn more here</a></p>
+                            </p>
                             </div>
                         </div>
+                        <div className="separation"></div>
                         <div className="container-training-xp">
                             <div className="container-training-year">
                             <p>September 2012 to November 2013</p>
                             </div>
                             <div className="container-training-description">
-                            <p>GHD - Salesman
+                            <p><a className="here" href="https://www.ghdhair.com/fr" target="_blank">GHD</a> - Salesman
                             <br></br>Telemarketing and commercial prospection. Clients Portfolio development. Customer resale training. Customer satisfaction awareness. Customer network development (customer satisfaction, sponsorship) and additionals marketing sales
-                            <br></br>
-                            <a className="here" href="https://www.ghdhair.com/fr" target="_blank">Learn more here</a></p>
+                            </p>
                             </div>
                         </div>
                     </div> :""}
