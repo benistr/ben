@@ -52,3 +52,20 @@
     50%{opacity: 0;}
     100%{opacity: 1;}
 }
+
+.stain4 {
+    width: 20%;
+    position: absolute;
+    right: -5%;
+    bottom: -5%;
+    z-index: -1;
+    transform: rotate(-25deg);
+}
+
+.stain5 {
+    width: 20%;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: -1;
+}

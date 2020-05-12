@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './aboutme.scss'
 import Photo from './Logo-triangle-photo.png';
 import { NavLink } from 'react-router-dom';
+import Stain4 from './Stain4.png';
+import Stain5 from './Stain5.png';
 
 class AboutMe extends Component {
     render() {
@@ -21,6 +23,9 @@ class AboutMe extends Component {
                     You can learn more about my skills <NavLink className="here" to="/resume">here</NavLink>.
                     </p>
                 </div>
+
+                <img className="stain4" src={Stain4}></img>
+                <img className="stain5" src={Stain5}></img>
             </div>
         )
     }

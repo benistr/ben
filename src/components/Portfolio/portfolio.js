@@ -10,8 +10,9 @@ class Portfolio extends Component {
         return (
             <div className="container-pf">
                 <div className="part-pf">
-                    <a href="https://cannaux-avocat.fr" target="_blank"><img className="photo-pf" src={Cannaux}></img></a>
-                    <p className="description">Corporate website for a Lawyer</p>
+                <p className="description">Corporate website for a lawyer</p>
+                <a href="https://cannaux-avocat.fr" target="_blank"><img className="photo-pf" src={Cannaux}>
+                    </img></a>
                     <div className="tags-wrapper">
                     <p className="tags">HTML</p>
                     <p className="tags">CSS</p>
@@ -21,29 +22,26 @@ class Portfolio extends Component {
                     </div>
                 </div>
                 <div className="part-pf">
+                <p className="description">Shopping list manager</p>
                     <a href="https://github.com/benistr/Projet-Ocourses" target="_blank"><img className="photo-pf" src={OCourses}></img></a>
-                    <p className="description">Shopping list manager</p>
                     <div className="tags-wrapper">
-                    <p className="tags">REACTJS</p>
+                    <p className="tags">REACT.JS</p>
                     <p className="tags">JSX</p>
                     <p className="tags">CSS</p>
-                    <p className="tags">SASS / SCSS</p>
-                    <p className="tags">SEMANTIC UI</p>
-                    <p className="tags">NODEJS</p>
+                    <p className="tags">SASS/SCSS</p>
+                    <p className="tags">SEMANTIC.UI</p>
+                    <p className="tags">NODE.JS</p>
                     <p className="tags">EXPRESS</p>
                     <p className="tags">MONGOOSE</p>
                     <p className="tags">MONGODB</p>
+                    <p className="tags">RESPONSIVE</p>
                     <p className="tags">AXIOS</p>
-                    <p className="tags">NPM</p>
-                    <p className="tags">JSON WEB TOKEN</p>
                     <p className="tags">REDUX</p>
-                    <p className="tags">BABEL</p>
-                    <p className="tags">API</p>
                     </div>
                 </div>
                 <div className="part-pf">
+                <p className="description">Corporate website for a lawyer - Blogging component functional but not implemented yet</p>
                     <a href="https://ocavocats.fr" target="_blank"><img className="photo-pf" src={OCA}></img></a>
-                    <p className="description">Corporate website for a lawyer - Blogging component functional but not implemented yet</p>
                     <div className="tags-wrapper">
                     <p className="tags">HTML</p>
                     <p className="tags">CSS</p>
@@ -53,8 +51,8 @@ class Portfolio extends Component {
                     </div>
                 </div>
                 <div className="part-pf">
+                <p className="description">Blogging Test on Wordpress with a custom theme from scratch</p>
                     <a href="https://github.com/benistr/oNews-Wordpress" target="_blank"><img className="photo-pf" src={WP}></img></a>
-                    <p className="description">Blogging Test on Wordpress with a custom theme</p>
                     <div className="tags-wrapper">
                     <p className="tags">HTML</p>
                     <p className="tags">CSS</p>
