@@ -21,6 +21,11 @@ import Computer from './computer.png';
 import Lightbulb from './lightbulb.png';
 import Stain6 from './Stain6.png';
 import Stain5 from './Stain5.png';
+import Eldo from './eldotravo.png';
+import GHD from './ghd.png';
+import JustEat from './justeat.png';
+import Addition from './laddition.png';
+import OCourses from './ocourses.png';
 
 class Resume extends Component {
     constructor(props)  {
@@ -222,6 +227,7 @@ class Resume extends Component {
                             <div className="container-training-xp">
                                 <div className="container-training-year">
                                 <p>September 2019 to October 2019</p>
+                                <img className="logo-work" src={OCourses}></img>
                                 </div>
                                 <div className="container-training-description">
                                 <p><a className="here" href="https://github.com/benistr/Projet-Ocourses" target="_blank">O'COURSES</a> - Graduation team project
@@ -235,6 +241,7 @@ class Resume extends Component {
                             <div className="container-training-xp">
                                 <div className="container-training-year">
                                 <p>August 2018 to December 2018</p>
+                                <img className="logo-work" src={Eldo}></img>
                                 </div>
                                 <div className="container-training-description">
                                 <p><a className="here" href="https://www.eldotravo.fr/" target="_blank">ELDOTRAVO</a> - Partnership Manager
@@ -246,6 +253,7 @@ class Resume extends Component {
                             <div className="container-training-xp">
                                 <div className="container-training-year">
                                 <p>January 2017 to July 2018</p>
+                                <img className="logo-work" src={Addition}></img>
                                 </div>
                                 <div className="container-training-description">
                                 <p><a className="here" href="https://www.laddition.com/fr" target="_blank">L'ADDITION</a> - Regional Business Developer
@@ -257,6 +265,7 @@ class Resume extends Component {
                             <div className="container-training-xp">
                                 <div className="container-training-year">
                                 <p>February 2014 to January 2017</p>
+                                <img className="logo-work" src={JustEat}></img>
                                 </div>
                                 <div className="container-training-description">
                                 <p><a className="here" href="https://www.just-eat.fr/" target="_blank">JUSTEAT</a> - Regional Business Developer
@@ -268,6 +277,7 @@ class Resume extends Component {
                             <div className="container-training-xp">
                                 <div className="container-training-year">
                                 <p>September 2012 to November 2013</p>
+                                <img className="logo-work" src={GHD}></img>
                                 </div>
                                 <div className="container-training-description">
                                 <p><a className="here" href="https://www.ghdhair.com/fr" target="_blank">GHD</a> - Salesman
