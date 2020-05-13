@@ -27,8 +27,8 @@ class App extends Component {
       ]
         return(
             <div id="app">
-            <Route exact path="/" component={LandingPage} />
             <Header links={links} />
+            <Route exact path="/" component={LandingPage} />
             <Footer />
                 <Switch>
                     <Route path="/aboutme" component={AboutMe} />
