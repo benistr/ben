@@ -5,6 +5,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
+
+  @media (max-width: 768px) {
+    background-size: 100% 100%;
+    overflow: hidden;
+  }
 }
 
 .flip-card {
@@ -13,6 +18,12 @@ body {
   height: 500px;
   perspective: 1000px;
   margin: auto;
+
+  @media (max-width: 768px) {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
 }
 
 .flip-card-inner {

@@ -51,7 +51,7 @@ class Portfolio extends Component {
                     </div>
                 </div>
                 <div className="part-pf">
-                <p className="description">Blogging Test on Wordpress with a custom theme from scratch</p>
+                <p className="description">Blogging Test with Wordpress (custom theme from scratch)</p>
                     <a href="https://github.com/benistr/oNews-Wordpress" target="_blank"><img className="photo-pf" src={WP}></img></a>
                     <div className="tags-wrapper">
                     <p className="tags">HTML</p>

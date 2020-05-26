@@ -9,6 +9,13 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+
+    @media (max-width: 768px) {
+        position: absolute;
+        top: 80px;
+        margin-left: 5%;
+        margin-right: 5%;
+        }
 }
 
 .part-resume {
@@ -20,6 +27,14 @@ body {
 
 .top-icon {
     width: 40%;
+
+    @media (max-width: 768px) {
+        width: 30%;
+    }
+
+    @media (max-width: 425px) {
+        width: 40%;
+    }
 }
 
 .top-icon:hover {
@@ -27,6 +42,14 @@ body {
     border: 3px solid #C89933;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #C89933;
+
+    @media (max-width: 768px) {
+        width: 30%;
+    }
+
+    @media (max-width: 425px) {
+        width: 50%;
+    }
 }
 
 .top-icon.active {
@@ -40,6 +63,14 @@ body {
     font-family: $font-family;
     font-size: 2.5rem;
     text-transform: uppercase;
+
+    @media (max-width: 768px) {
+        font-size: 1.5rem;
+    }
+
+    @media (max-width: 425px) {
+        font-size: 1.2rem;
+    }
 }
 
 .container-interests {

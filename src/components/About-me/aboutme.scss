@@ -5,6 +5,15 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+
+    @media (max-width: 768px) {
+    flex-wrap: wrap-reverse;
+    position: absolute;
+    top: 80px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    }
 }
 
 .left-part-am {
@@ -13,6 +22,10 @@
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 .right-part-am {
@@ -21,12 +34,20 @@
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 .photo {
     width: 90%;
     height: auto;
     animation: fadeIn 5s;
+
+    @media (max-width: 768px) {
+        width: 50%;
+    }
 }
 
 @keyframes fadeIn {
@@ -40,6 +61,10 @@
     font-size: 2.5rem;
     text-align: right;
     text-align: justify;
+
+    @media (max-width: 768px) {
+    font-size: 1.5rem;  
+    }
 }
 
 .here {
@@ -60,6 +85,10 @@
     bottom: -5%;
     z-index: -1;
     transform: rotate(-25deg);
+
+    @media (max-width: 768px) {
+    display: none;  
+    }
 }
 
 .stain5 {
@@ -68,4 +97,8 @@
     right: 5%;
     top: 5%;
     z-index: -1;
+
+    @media (max-width: 768px) {
+    display: none; 
+    }
 }

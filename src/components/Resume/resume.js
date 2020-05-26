@@ -291,19 +291,19 @@ class Resume extends Component {
                     <div className="container-interests">
                         <div className="part-resume">
                             <a href="https://www.flickr.com/photos/154515169@N04/albums" target="_blank" alt="lien externe vers flickr"><img className="top-icon" src={Camera}></img></a>
-                            <p className="top-text">Urban and Landscape hotography</p>
+                            <p className="top-text">Urban and Landscape Photography</p>
                         </div>
                         <div className="part-resume">
                             <img className="top-icon" src={Gamepad}></img>
-                            <p className="top-text">Role playing and video games</p>
+                            <p className="top-text">Role playing and multiplayers video games</p>
                         </div>
                         <div className="part-resume">
                             <a href="https://soundcloud.com/black-cherry-15/sets/ep-1" target="_blank" alt="lien externe vers soundcloud"><img className="top-icon" src={Music}></img></a>
-                            <p className="top-text">Music, Guitar, concert</p>
+                            <p className="top-text">Listening Music, Playing Guitar, concerts</p>
                         </div>
                         <div className="part-resume">
                             <img className="top-icon" src={Plane}></img>
-                            <p className="top-text">Aviation and everything that flies near or far</p>
+                            <p className="top-text">Aviation and aerospace</p>
                         </div>
                     </div> : ""}
                 </div>

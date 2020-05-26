@@ -14,6 +14,11 @@ body {
     font-size: 2rem;
     overflow-y: auto;
     margin-top: 4%;
+
+    @media (max-width: 768px) {
+        height: 300px;
+        margin-top: 0;
+    }
 }
 
 .container-icon {
@@ -22,6 +27,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+        height: 190px;
+    }
 }
 
 .container-icon::-webkit-scrollbar {
@@ -54,6 +64,12 @@ body {
 
 .part-icon {
     width: 100%;
+
+    @media (max-width: 768px) {
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .icon-list {
@@ -63,16 +79,27 @@ body {
 
 .note-skill {
     font-size: 2rem;
+
 }
 
 .container-soft-skill {
     width: 100%;
     display: flex;
     margin-top: 3%;
+
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+    }
 }
 
 .software-skill {
     width: 50%;
+
+    @media (max-width: 768px) {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 4%;   
+    }
 }
 
 .soft-icon {

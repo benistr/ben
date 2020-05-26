@@ -29,13 +29,13 @@ class App extends Component {
             <div id="app">
             <Header links={links} />
             <Route exact path="/" component={LandingPage} />
-            <Footer />
                 <Switch>
                     <Route path="/aboutme" component={AboutMe} />
                     <Route path="/resume" component={Resume} />
                     <Route path="/portfolio" component={Portfolio} />
                     <Route path="/contact" component={Contact} />
                 </Switch>
+                <Footer />
             </div>
     )}
 };

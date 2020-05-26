@@ -12,14 +12,22 @@
     display: flex;
     justify-content: space-around;
     animation: slideDown 2s;
+
+    @media screen and (max-width: 768px) {
+    justify-content: space-between;
+    top: -18%;
+    }
 }
 
 .header:hover {
     height: 200px;
     top: 0px;
     transition-duration: 300ms;
-}
 
+    @media screen and (max-width: 768px) {
+    top: -10%;
+    }
+}
 
 .navigation {
     font-family: $font-family;
@@ -29,12 +37,37 @@
     position: relative;
     top: 10px;
     transition-duration: 300ms;
+
+    @media screen and (max-width: 768px) {
+    font-size: 2rem;
+    padding-left: 6%;
+    padding-right: 6%;
+    top: 26%;
+    }
+
+    @media (max-width: 425px) {
+        font-size: 1.5rem;
+        padding-left: 6%;
+        padding-right: 6%;
+        top: 30%;
+    }
 }
 
 .navigation:hover {
     position: relative;
     top: 15px;
     transition-duration: 300ms;
+
+    @media screen and (max-width: 768px) {
+    position: relative;
+    top: 26%;
+    }
+    @media (max-width: 425px) {
+        font-size: 1.5rem;
+        padding-left: 6%;
+        padding-right: 6%;
+        top: 30%;
+    }
 }
 
 .navigation.active {
@@ -45,6 +78,18 @@
     text-decoration: underline #C89933;
     position: relative;
     top: 50px;
+
+    @media screen and (max-width: 768px) {
+    font-size: 2rem;
+    top: 78px;
+    }
+
+    @media (max-width: 425px) {
+        font-size: 1.5rem;
+        padding-left: 6%;
+        padding-right: 6%;
+        top: 84px;
+    }
 }
 
 @keyframes slideDown {
