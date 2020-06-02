@@ -54,7 +54,7 @@
     "babel-plugin-emotion": "^10.0.19",
     "color": "^3.1.2",
     "emailjs-com": "^2.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "raw-loader": "^3.1.0",
     "react": "*",
     "react-dom": "*",
