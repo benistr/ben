@@ -9,7 +9,7 @@
     @media (max-width: 768px) {
     flex-wrap: wrap-reverse;
     position: absolute;
-    top: 80px;
+    top: 90px;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -48,6 +48,10 @@
     @media (max-width: 768px) {
         width: 50%;
     }
+
+    @media (max-width: 425px) {
+        margin-top: 4%;
+    }
 }
 
 @keyframes fadeIn {
@@ -78,7 +82,7 @@
     100%{opacity: 1;}
 }
 
-.stain4 {
+.stain4-about {
     width: 20%;
     position: absolute;
     right: -5%;
@@ -91,7 +95,7 @@
     }
 }
 
-.stain5 {
+.stain5-about {
     width: 20%;
     position: absolute;
     right: 5%;
@@ -99,6 +103,14 @@
     z-index: -1;
 
     @media (max-width: 768px) {
-    display: none; 
+        position: absolute;
+        top: 40%;
+        right: 1%;
+    }
+
+    @media (max-width: 425px) {
+    position: absolute;
+    top: 60%;
+    right: 4%;
     }
 }

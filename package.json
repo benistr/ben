@@ -23,7 +23,7 @@
     "html-webpack-plugin": "*",
     "ignore-styles": "*",
     "mini-css-extract-plugin": "*",
-    "node-sass": "*",
+    "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "*",
     "postcss": "*",
     "postcss-loader": "*",
@@ -33,7 +33,7 @@
     "uglifyjs-webpack-plugin": "*",
     "webpack": "*",
     "webpack-cli": "*",
-    "webpack-dev-server": "*"
+    "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
     "test": "NODE_PATH=./ mocha --require babel-core/register --require tests/.setup.js tests/**/*.test.js",
@@ -54,7 +54,7 @@
     "babel-plugin-emotion": "^10.0.19",
     "color": "^3.1.2",
     "emailjs-com": "^2.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "raw-loader": "^3.1.0",
     "react": "*",
     "react-dom": "*",

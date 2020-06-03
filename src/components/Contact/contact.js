@@ -72,7 +72,7 @@ class Contact extends React.Component {
       </div>
       <div className="form-group">
           <label htmlFor="message">Message</label>
-          <textarea className="form-control" placeholder="Please type your message here if you have a job for me, a million dollar to give me, or if you just want to say hi&#9786;" rows="5" value={this.state.message} name="message" onChange={this.onMessageChange.bind(this)} />
+          <textarea className="form-control" placeholder="Please type your message here if you have a job for me, a million dollar to give me, or if you just want to say hi" rows="5" value={this.state.message} name="message" onChange={this.onMessageChange.bind(this)} />
       </div>
       <button type="submit" className="btn btn-primary">Submit</button>
       </form>

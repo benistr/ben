@@ -194,7 +194,7 @@ class Resume extends Component {
                                 </div>
                             </div>
                             <div className="note-skill">
-                                <p>You will not find skills charts here because I think it's a subjective notion. I'm not competent to assess myself&#9786;</p>
+                                <p>You will not find skills charts here because I think it's a subjective notion. I'm not competent to assess myself</p>
                             </div>
                             <div className="container-soft-skill">
                                 <div className="software-skill">
@@ -308,8 +308,8 @@ class Resume extends Component {
                     </div> : ""}
                 </div>
 
-                <img className="stain6" src={Stain6}></img>
-                <img className="stain5" src={Stain5}></img>
+                <img className="stain6-resume" src={Stain6}></img>
+                <img className="stain5-resume" src={Stain5}></img>
             </div>
 
         )

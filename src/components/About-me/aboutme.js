@@ -24,8 +24,8 @@ class AboutMe extends Component {
                     </p>
                 </div>
 
-                <img className="stain4" src={Stain4}></img>
-                <img className="stain5" src={Stain5}></img>
+                <img className="stain4-about" src={Stain4}></img>
+                <img className="stain5-about" src={Stain5}></img>
             </div>
         )
     }
