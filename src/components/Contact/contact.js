@@ -4,6 +4,7 @@ import '../../styles/_vars.sass';
 import Stain2 from './Stain2.png';
 import Stain3 from './Stain3.png';
 import * as emailjs from 'emailjs-com';
+import Plane from './paper-plane.png';
 
 class Contact extends React.Component {
     constructor(props) {
@@ -11,7 +12,8 @@ class Contact extends React.Component {
       this.state = {
         name: '',
         email: '',
-        message: ''
+        message: '',
+        redirectToContact: false
       };
       this.onNameChange = this.onNameChange.bind(this);
       this.onEmailChange = this.onEmailChange.bind(this);
@@ -37,20 +39,26 @@ class Contact extends React.Component {
       ".contact-form",
       "user_5OMUCSvwmqYc79K2f5H8x"
     )
-    .then(function(){
-      alert("Sent!");
-    })
-    .catch(function(){
-      alert("Send email failed!");
-    });
+    .then()
+    .catch();
     this.setState({
       name: '',
       email: '',
       message: '',
+      redirectToContact: true
     });
   }
   
   render() {
+    const redirectToContact = this.state.redirectToContact;
+    if (redirectToContact === true) {
+      return <div>
+      <p className="message-sent">Thank You!<br></br>Your Message has been sent to Benjamin</p>
+      <img className="plane-contact" src={Plane}></img>
+      </div>
+    } else {
+      <p className="message-sent">Sorry, something went wrong!</p>
+    }
    return(
      <div className="container">
      <form className="contact-form" onSubmit={this.handleSubmit.bind(this)}>

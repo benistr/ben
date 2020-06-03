@@ -4,7 +4,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { Switch, Route, Router } from 'react-router-dom';
+import { Switch, Route, history } from 'react-router-dom';
+import Favicon from 'react-favicon';
 
 import LandingPage from '../Landing-page/landingpage';
 import AboutMe from '../About-me/aboutme';
@@ -27,6 +28,7 @@ class App extends Component {
       ]
         return(
             <div id="app">
+            <Favicon url="./src/components/App/favicon.png" />
             <Header links={links} />
             <Route exact path="/" component={LandingPage} />
                 <Switch>

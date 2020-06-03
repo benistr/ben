@@ -121,3 +121,18 @@ textarea::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: #C89933;
 }
+
+.message-sent {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: $font-family;
+    font-size: 3rem;
+    margin-top: 10%;
+    color: #C89933;
+}
+
+.plane-contact {
+    width: 15%;
+    margin-top: 4%;
+}
