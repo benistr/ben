@@ -17,6 +17,7 @@ import Footer from '../Footer/footer';
 
 // Styles et assets
 import './app.sass';
+import Fav from './favicon.png';
 
 class App extends Component {
     render() {
@@ -28,7 +29,7 @@ class App extends Component {
       ]
         return(
             <div id="app">
-            <Favicon url="./src/components/App/favicon.png" />
+            <Favicon url={Fav} />
             <Header links={links} />
             <Route exact path="/" component={LandingPage} />
                 <Switch>
