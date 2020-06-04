@@ -9,7 +9,7 @@
     @media (max-width: 768px) {
     flex-wrap: wrap-reverse;
     position: absolute;
-    top: 90px;
+    top: 100px;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -46,11 +46,11 @@
     animation: fadeIn 5s;
 
     @media (max-width: 768px) {
-        width: 50%;
+        width: 40%;
     }
 
     @media (max-width: 425px) {
-        margin-top: 4%;
+        margin-top: 10%;
     }
 }
 

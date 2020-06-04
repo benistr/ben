@@ -12,7 +12,7 @@ body {
 
     @media (max-width: 768px) {
         position: absolute;
-        top: 90px;
+        top: 100px;
         margin-left: 5%;
         margin-right: 5%;
         }
@@ -93,6 +93,11 @@ body {
     bottom: -7%;
     z-index: -1;
     transform: rotate(180deg);
+
+    @media (max-width: 768px) {
+        bottom: 10%;
+        left: -10%;
+    }
 }
 
 .stain5-resume {
@@ -102,6 +107,10 @@ body {
     top: 30%;
     z-index: -1;
     transform: rotate(180deg);
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 }
 
 // .toggle-wrapper {

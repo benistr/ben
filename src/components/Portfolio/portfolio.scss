@@ -14,6 +14,12 @@
         height: 400px;
         position: absolute;
         top: 100px;
+    }
+
+    @media (max-width: 425px) {
+        height: 500px;
+        position: absolute;
+        top: 100px;
         left: 2%;
         right: 2%;
     }
@@ -94,6 +100,10 @@
     margin-right: 2%;
     margin-bottom: 2%;
     box-shadow: 2px 2px 2px grey;
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
 }
 
 .tags-wrapper {
