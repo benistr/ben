@@ -14,8 +14,12 @@
     animation: slideDown 2s;
 
     @media screen and (max-width: 768px) {
-    justify-content: space-between;
+    justify-content: space-around;
     top: -60px;
+    }
+
+    @media (max-width: 425px) {
+        justify-content: space-around;
     }
 }
 
@@ -47,8 +51,6 @@
 
     @media (max-width: 425px) {
         font-size: 1.2rem;
-        margin-left: 6%;
-        margin-right: 6%;
         top: 30%;
     }
 }

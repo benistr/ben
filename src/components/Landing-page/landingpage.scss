@@ -10,6 +10,10 @@ body {
     background-size: auto 100%;
     overflow: hidden;
   }
+
+  @media (max-width: 425px) {
+    overflow: hidden;
+  }
 }
 
 .flip-card {
