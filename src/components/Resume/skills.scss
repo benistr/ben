@@ -20,7 +20,7 @@ body {
     }
 
     @media (max-width: 425px) {
-        height: 400px;
+        height: 430px;
         margin-top: 0;
     }
 }
@@ -79,6 +79,7 @@ body {
 .icon-list {
     width: 35%;
     height: auto;
+    margin: 0;
 }
 
 .note-skill {
@@ -109,6 +110,7 @@ body {
 
 .soft-icon {
     width: 30%;
+    margin: 0;
 }
 
 .soft-title {

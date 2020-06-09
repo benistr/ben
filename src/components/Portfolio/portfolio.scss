@@ -66,6 +66,10 @@
     transition: .5s ease;
     backface-visibility: hidden;
     box-shadow: 4px 4px 4px grey;
+
+    @media (max-width: 425px) {
+        width: 100%;
+    }
 }
 
 .description {
@@ -84,7 +88,7 @@
     }
 
     @media (max-width: 425px) {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         height: 50px;
     }
 }
@@ -95,7 +99,7 @@
     border-radius: 10px;
     font-family: $font-family;
     font-size: 2rem;
-    padding: 0 2% 0 2%;
+    padding: 0 8px 0 8px;
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 2%;
@@ -103,6 +107,11 @@
 
     @media (max-width: 768px) {
         font-size: 1rem;
+        padding: 0 8px 0 8px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        box-shadow: 2px 2px 2px grey;
     }
 }
 

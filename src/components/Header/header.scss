@@ -1,21 +1,23 @@
 @import '../../styles/_vars.sass';
 
 .header {
-    background-image: url('./Bandeau-Empty-Extend-Final.png');
+    background-image: url('./Bandeau-Empty-Extend-Final-Double(reduce).png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 200px;
     position: relative;
-    top: -10%;
+    top: -134px;
     transition-duration: 300ms;
     display: flex;
     justify-content: space-around;
-    animation: slideDown 2s;
+    animation: slideDown 8s;
+    z-index: 1;
 
     @media screen and (max-width: 768px) {
     justify-content: space-around;
-    top: -60px;
+    top: -120px;
+    animation: none;
     }
 
     @media (max-width: 425px) {
@@ -25,11 +27,11 @@
 
 .header:hover {
     height: 200px;
-    top: 0px;
+    top: -80px;
     transition-duration: 300ms;
 
     @media screen and (max-width: 768px) {
-    top: -60px;
+    top: -120px;
     }
 }
 
@@ -39,36 +41,36 @@
     font-size: 3rem;
     text-transform: uppercase;
     position: relative;
-    top: 10px;
+    top: 80px;
     transition-duration: 300ms;
 
     @media screen and (max-width: 768px) {
     font-size: 1.5rem;
     margin-left: 6%;
     margin-right: 6%;
-    top: 30%;
+    top: 60%;
     }
 
     @media (max-width: 425px) {
         font-size: 1.2rem;
-        top: 30%;
+        top: 60%;
     }
 }
 
 .navigation:hover {
     position: relative;
-    top: 15px;
+    top: 100px;
     transition-duration: 300ms;
 
     @media screen and (max-width: 768px) {
     position: relative;
-    top: 30%;
+    top: 60%;
     }
     @media (max-width: 425px) {
         font-size: 1.5rem;
         margin-left: 6%;
         margin-right: 6%;
-        top: 30%;
+        top: 60%;
     }
 }
 
@@ -79,18 +81,18 @@
     text-transform: uppercase;
     text-decoration: underline #C89933;
     position: relative;
-    top: 50px;
+    top: 100px;
 
     @media screen and (max-width: 768px) {
     font-size: 1.5rem;
-    top: 78px;
+    top: 126px;
     }
 
     @media (max-width: 425px) {
         font-size: 1.2rem;
         margin-left: 6%;
         margin-right: 6%;
-        top: 84px;
+        top: 128px;
     }
 }
 
@@ -98,6 +100,10 @@
     0% {
         transform: translateY(-100px);
         opacity: 0;
+    }
+    50% {
+        transform: translateY(80px);
+        opacity: 0.80;
     }
     to {
         transform: translateY(0px);

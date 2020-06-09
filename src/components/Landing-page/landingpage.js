@@ -10,10 +10,10 @@ class LandingPage extends Component {
                 <div className="flip-card">
                     <div className="flip-card-inner">
                         <div className="flip-card-front">
-                            <img src={Logo1}></img>
+                            <img className="welcome-image" src={Logo1}></img>
                         </div>
                         <div className="flip-card-back">
-                            <Link to="/aboutme"><img src={Logo2}></img></Link>
+                            <Link to="/aboutme"><img className="welcome-image" src={Logo2}></img></Link>
                         </div>
                     </div>
                 </div>

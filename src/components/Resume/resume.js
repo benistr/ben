@@ -206,7 +206,8 @@ class Resume extends Component {
                                     <p>CRM: Salesforce & Zoho</p>
                                     <p>Scrum & Agile methodology</p>
                                     <p>Trello - Wireframes - Slask - Discord</p>
-                                    <p>Suite Office - Suite Adobe (beginner): Pr, Ps, Lr, Id, Ai</p>
+                                    <p>Adobe Suite (beginner): Pr, Ps, Lr, Id, Ai</p>
+                                    <p>Office Suite</p>
                                 </div>
                                 <div className="software-skill">
                                 <div className="icon-wrapper">
